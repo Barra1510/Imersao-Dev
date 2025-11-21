@@ -1,0 +1,44 @@
+[
+{
+    "nome": "JavaScript", 
+    "icone": "img/javascript.svg",
+    "descrição": "JavaScript é uma linguagem de programação interpretada de alto nível, multiparadigma, usada para criar páginas web interativas.",
+    "ano" : "1995",
+    "link" : "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+},
+{
+    "nome": "Python", 
+    "icone": "img/python.svg",
+    "descrição": "Python é uma linguagem de programação de alto nível, de propósito geral, que prioriza a legibilidade do código e uma sintaxe clara.",
+    "ano" : "1991",
+    "link" : "https://docs.python.org/pt-br/3.14/"
+},
+{
+    "nome": "Java",
+    "icone": "img/java.svg",
+    "descrição": "Java é uma linguagem de programação orientada a objetos e multiplataforma.",
+    "ano": "1995",
+    "link": "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"
+},
+{
+    "nome": "C#",
+    "icone": "img/csharp.svg",
+    "descrição": "C# é uma linguagem de programação moderna, orientada a objetos, desenvolvida pela Microsoft.",
+    "ano": "2000",
+    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
+},
+{
+    "nome": "Go",
+    "icone": "img/go.svg",
+    "descrição": "Go é uma linguagem de programação de código aberto desenvolvida pelo Google para ser eficiente e escalável.",
+    "ano": "2009",
+    "link": "https://go.dev/doc/"
+},
+{
+    "nome": "Ruby",
+    "icone": "img/ruby.svg",
+    "descrição": "Ruby é uma linguagem de programação dinâmica e de código aberto com foco na simplicidade e produtividade.",
+    "ano": "1995",
+    "link": "https://www.ruby-lang.org/pt/documentation/"
+}
+]
