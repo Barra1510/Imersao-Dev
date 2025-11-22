@@ -1,44 +1,162 @@
 [
-{
-    "nome": "JavaScript", 
-    "icone": "img/javascript.svg",
-    "descrição": "JavaScript é uma linguagem de programação interpretada de alto nível, multiparadigma, usada para criar páginas web interativas.",
-    "ano" : "1995",
-    "link" : "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
-},
-{
-    "nome": "Python", 
-    "icone": "img/python.svg",
-    "descrição": "Python é uma linguagem de programação de alto nível, de propósito geral, que prioriza a legibilidade do código e uma sintaxe clara.",
-    "ano" : "1991",
-    "link" : "https://docs.python.org/pt-br/3.14/"
-},
-{
-    "nome": "Java",
-    "icone": "img/java.svg",
-    "descrição": "Java é uma linguagem de programação orientada a objetos e multiplataforma.",
-    "ano": "1995",
-    "link": "https://docs.oracle.com/en/java/javase/17/docs/api/index.html"
-},
-{
-    "nome": "C#",
-    "icone": "img/csharp.svg",
-    "descrição": "C# é uma linguagem de programação moderna, orientada a objetos, desenvolvida pela Microsoft.",
-    "ano": "2000",
-    "link": "https://learn.microsoft.com/pt-br/dotnet/csharp/"
-},
-{
-    "nome": "Go",
-    "icone": "img/go.svg",
-    "descrição": "Go é uma linguagem de programação de código aberto desenvolvida pelo Google para ser eficiente e escalável.",
-    "ano": "2009",
-    "link": "https://go.dev/doc/"
-},
-{
-    "nome": "Ruby",
-    "icone": "img/ruby.svg",
-    "descrição": "Ruby é uma linguagem de programação dinâmica e de código aberto com foco na simplicidade e produtividade.",
-    "ano": "1995",
-    "link": "https://www.ruby-lang.org/pt/documentation/"
-}
+    {
+        "nome": "Grand Theft Auto V",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/271590/header.jpg",
+        "descrição": "Embora lançado em 2013, seu modo online o manteve como um dos jogos mais jogados e relevantes da última década.",
+        "genero": "Ação-Aventura",
+        "ano": "2013",
+        "link": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"
+    },
+    {
+        "nome": "The Witcher 3: Wild Hunt",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/292030/header.jpg",
+        "descrição": "Um RPG de mundo aberto com uma história rica, onde você joga como Geralt de Rívia, um caçador de monstros profissional.",
+        "genero": "RPG de Ação",
+        "ano": "2015",
+        "link": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+    },
+    {
+        "nome": "Bloodborne",
+        "icone": "https://assetsio.gnwcdn.com/sony-revela-a-capa-de-bloodborne-1417879926447.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+        "descrição": "Um RPG de ação desafiador com uma atmosfera gótica e combate rápido, exclusivo para PlayStation.",
+        "genero": "RPG de Ação",
+        "ano": "2015",
+        "link": "https://www.playstation.com/pt-br/games/bloodborne/"
+    },
+    {
+        "nome": "Stardew Valley",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/413150/header.jpg",
+        "descrição": "Um simulador de fazenda onde você herda uma propriedade rural e aprende a viver da terra, construindo relações com a comunidade.",
+        "genero": "Simulação, RPG",
+        "ano": "2016",
+        "link": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+    },
+    {
+        "nome": "Overwatch",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/2357570/header.jpg",
+        "descrição": "Um jogo de tiro em equipe baseado em heróis com personagens únicos e foco em objetivos cooperativos.",
+        "genero": "Tiro em Primeira Pessoa",
+        "ano": "2016",
+        "link": "https://store.steampowered.com/app/2357570/Overwatch_2/"
+    },
+    {
+        "nome": "The Legend of Zelda: Breath of the Wild",
+        "icone": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_1.0/ncom/software/switch/70010000000025/7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58",
+        "descrição": "Uma aventura de mundo aberto que redefiniu a série Zelda, oferecendo liberdade de exploração sem precedentes.",
+        "genero": "Ação-Aventura",
+        "ano": "2017",
+        "link": "https://www.nintendo.com/pt-br/store/products/the-legend-of-zelda-breath-of-the-wild-switch/"
+    },
+    {
+        "nome": "Fortnite",
+        "icone": "https://cdn.selectgame.net/wp-content/uploads/2025/01/Capa-Fortnite-Raiz-em-31-01.webp",
+        "descrição": "Um fenômeno cultural no gênero Battle Royale, conhecido por suas construções, eventos ao vivo e crossovers constantes.",
+        "genero": "Battle Royale",
+        "ano": "2017",
+        "link": "https://www.epicgames.com/fortnite/pt-BR/home"
+    },
+    {
+        "nome": "Red Dead Redemption 2",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1174180/header.jpg",
+        "descrição": "Uma épica história de faroeste sobre honra e lealdade no declínio da era dos fora-da-lei, com um mundo aberto incrivelmente detalhado.",
+        "genero": "Ação-Aventura",
+        "ano": "2018",
+        "link": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+    },
+    {
+        "nome": "God of War",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1593500/header.jpg",
+        "descrição": "Kratos, agora vivendo no reino dos deuses nórdicos, luta para sobreviver e ensinar seu filho, Atreus, a fazer o mesmo.",
+        "genero": "Ação-Aventura",
+        "ano": "2018",
+        "link": "https://store.steampowered.com/app/1593500/God_of_War/"
+    },
+    {
+        "nome": "Celeste",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/504230/header.jpg",
+        "descrição": "Um jogo de plataforma preciso e desafiador com uma narrativa emocionante sobre saúde mental e superação.",
+        "genero": "Plataforma",
+        "ano": "2018",
+        "link": "https://store.steampowered.com/app/504230/Celeste/"
+    },
+    {
+        "nome": "Sekiro: Shadows Die Twice",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/814380/header.jpg",
+        "descrição": "Um jogo de ação e aventura da FromSoftware com foco em combate preciso de espadas e furtividade no Japão feudal.",
+        "genero": "Ação-Aventura",
+        "ano": "2019",
+        "link": "https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/"
+    },
+    {
+        "nome": "Disco Elysium",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/632470/header.jpg",
+        "descrição": "Um RPG inovador sem combate tradicional, focado em diálogos e investigação, onde você é um detetive com amnésia.",
+        "genero": "RPG",
+        "ano": "2019",
+        "link": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/"
+    },
+    {
+        "nome": "Animal Crossing: New Horizons",
+        "icone": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_502/b_white/f_auto/q_auto/store/software/switch/70010000027619/9989957eae3a6b545194c42fec2071675c34aadacd65e6b33fdfe7b3b6a86c3a",
+        "descrição": "Um simulador de vida relaxante onde você se muda para uma ilha deserta e a transforma em seu paraíso pessoal.",
+        "genero": "Simulação Social",
+        "ano": "2020",
+        "link": "https://www.nintendo.com/pt-br/store/products/animal-crossing-new-horizons-switch/"
+    },
+    {
+        "nome": "Hades",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+        "descrição": "Um roguelike aclamado onde você desafia o deus dos mortos para escapar do submundo, com narrativa e personagens marcantes.",
+        "genero": "Roguelike, RPG de Ação",
+        "ano": "2020",
+        "link": "https://store.steampowered.com/app/1145360/Hades/"
+    },
+    {
+        "nome": "The Last of Us Part II",
+        "icone": "https://cdn1.epicgames.com/offer/7713e3fa4b234e0d8f553044205d53b6/EGS_TheLastofUsPartIIRemastered_NaughtyDogLLCNixxesSoftwareIronGalaxy_S1_2560x1440-e93b7a99866b784c5fc948c1666df5e0",
+        "descrição": "Uma jornada brutal e emocional sobre as consequências da violência, continuando a história de Ellie.",
+        "genero": "Ação-Aventura",
+        "ano": "2020",
+        "link": "https://www.playstation.com/pt-br/games/the-last-of-us-part-ii/"
+    },
+    {
+        "nome": "Cyberpunk 2077",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1091500/header.jpg",
+        "descrição": "Um RPG de ação e aventura em mundo aberto ambientado em Night City, uma megalópole obcecada por poder e modificações corporais.",
+        "genero": "RPG de Ação",
+        "ano": "2020",
+        "link": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
+    },
+    {
+        "nome": "It Takes Two",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1426210/header.jpg",
+        "descrição": "Uma aventura de plataforma exclusivamente cooperativa sobre um casal em crise transformado em bonecos por um feitiço.",
+        "genero": "Aventura, Plataforma",
+        "ano": "2021",
+        "link": "https://store.steampowered.com/app/1426210/It_Takes_Two/"
+    },
+    {
+        "nome": "Elden Ring",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+        "descrição": "Um vasto RPG de ação da FromSoftware em colaboração com George R. R. Martin, ambientado nas Terras Intermédias.",
+        "genero": "RPG de Ação",
+        "ano": "2022",
+        "link": "https://store.steampowered.com/app/1245620/ELDEN_RING/"
+    },
+    {
+        "nome": "Baldur's Gate 3",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+        "descrição": "Um RPG baseado em Dungeons & Dragons que oferece liberdade incomparável ao jogador para explorar, experimentar e interagir com o mundo.",
+        "genero": "RPG",
+        "ano": "2023",
+        "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+    },
+    {
+        "nome": "Helldivers 2",
+        "icone": "https://cdn.cloudflare.steamstatic.com/steam/apps/553850/header.jpg",
+        "descrição": "Um jogo de tiro cooperativo em terceira pessoa onde você se junta a esquadrões para lutar pela liberdade em uma galáxia hostil.",
+        "genero": "Tiro Cooperativo",
+        "ano": "2024",
+        "link": "https://store.steampowered.com/app/553850/HELLDIVERS_2/"
+    }
 ]

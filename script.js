@@ -38,14 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
             description.textContent = language.descrição;
 
             const year = document.createElement('p');
-            year.innerHTML = `<strong>Ano de criação:</strong> ${language.ano}`;
+            year.innerHTML = `<strong>Ano de Lançamento:</strong> ${language.ano}`;  
+
+            const genre = document.createElement('p');
+            genre.innerHTML = `<strong>Genero:</strong> ${language.genero}`;
 
             const link = document.createElement('a');
             link.href = language.link;
             link.target = '_blank';
-            link.textContent = 'Documentação';
+            link.textContent = 'Página do jogo';
 
-            article.append(h2, description, year, link);
+            article.append(h2, description, year, genre, link);
             mainContainer.appendChild(article);
         });
     }

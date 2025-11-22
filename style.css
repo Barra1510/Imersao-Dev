@@ -9,7 +9,9 @@
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
     --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --bg-color: #222325; /* Cor de fundo (cinza escuro) */
+    --bg2-color: #3777f7;
+    --border-color: #ff8411;
 }
 
 body {
@@ -30,9 +32,9 @@ header {
     justify-content: space-around; /* Distribui os itens com espaço ao redor */
     position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
     top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
+    background: var(--bg2-color); /* Cor de fundo do cabeçalho */
     z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
+    border-bottom: 4px solid var(--border-color); /* Adiciona uma borda inferior */
     gap: 1rem; /* Espaçamento entre os elementos flex */
 }
 
@@ -109,8 +111,9 @@ article {
     margin-bottom: 1.25rem; /* Margem inferior */
     box-shadow: none; /* Sem sombra */
     transition: background-color 0.3s ease, border-bottom-color 0.3s ease; /* Transição suave */
-    border-bottom: 1px solid var(--bg-color); /* Borda inferior */
+    border-bottom: 2px solid var(--border-color); /* Borda inferior */
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
+    
 }
 
 article:hover {
@@ -135,13 +138,15 @@ article h2 {
 }
 
 article h2 img {
-    width: 1.6rem;
-    height: 1.6rem;
+    /* Ajustamos o tamanho do ícone/imagem do jogo.
+       Definimos apenas a altura e deixamos a largura automática
+       para evitar distorção da imagem. */
+    height: 5rem;
     transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Adiciona uma transição suave */
 }
 
 article:hover h2 img {
-    transform: rotate(15deg) scale(1.25); /* Rotaciona e aumenta o ícone ao passar o mouse no artigo */
+    transform: rotate(5deg) scale(1.25); /* Rotaciona e aumenta o ícone ao passar o mouse no artigo */
 }
 
 article p {
@@ -150,6 +155,7 @@ article p {
     font-size: 1rem; /* Tamanho da fonte */
     margin-bottom: 0.5rem; /* Margem inferior */
     color: var(--secondary-color); /* Cor do texto */
+    
 }
 
 article p strong {
