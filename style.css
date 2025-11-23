@@ -39,7 +39,7 @@ header {
 }
 
 header h1 {
-    font-size: 1.5rem; /* Tamanho da fonte */
+    font-size: 2rem; /* Tamanho da fonte */
     margin: 0; /* Remove a margem padrão */
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
