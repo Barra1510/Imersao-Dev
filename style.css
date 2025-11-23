@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Stack+Sans+Notch:wght@200..700&display=swap'); /* Exemplo: Importando a fonte Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Stack+Sans+Notch:wght@200..700&display=swap');
 
 * {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
@@ -8,7 +8,7 @@
 :root {
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
+    --tertiary-color: #ff8411; /* Cor terciária (cinza médio) */
     --bg-color: #222325; /* Cor de fundo (cinza escuro) */
     --bg2-color: #3777f7;
     --border-color: #ff8411;
@@ -54,7 +54,7 @@ div input {
     font-size: 1.5rem; /* Tamanho da fonte */
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 30rem; /* Largura do input */
-    color: var(--secondary-color); /* Cor do texto digitado */
+    color: var(--tertiary-color); /* Cor do texto digitado */
     margin-right: .5rem; /* Margem à direita */
 }
 
@@ -86,9 +86,9 @@ div input:focus {
 }
 
 #botao-busca:hover {
-    background-color: var(--primary-color); /* Muda a cor de fundo ao passar o mouse */
+    background-color: var(--tertiary-color); /* Muda a cor de fundo ao passar o mouse */
     color: var(--bg-color); /* Muda a cor do texto ao passar o mouse */
-    box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra de caixa */
+    box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra de caixa */
 }
 
 #botao-busca:active {
